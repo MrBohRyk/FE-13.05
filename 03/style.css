@@ -1,0 +1,25 @@
+* {
+  background-color: rgb(247, 247, 174);
+}
+
+div {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+}
+
+form {
+  padding: 10px;
+}
+
+input {
+  background-color: white;
+}
+
+label {
+  background-color: rgb(140, 250, 250);
+}
+.button {
+  padding-right: 20px;
+}
