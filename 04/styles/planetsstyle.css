@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(234, 253, 247);
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -19,8 +15,7 @@ body {
   width: 40%;
   padding: 20px;
   text-align: center;
-  background-color: white(255, 255, 255);
-  background-color: white;
+
 }
 
 h1 {
