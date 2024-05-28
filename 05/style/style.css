@@ -36,8 +36,9 @@ p {
 
 h1 {
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
+  margin-bottom: 17px;
+  font-style: normal;
   line-height: normal;
   margin-bottom: 17px;
 }
