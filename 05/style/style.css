@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 152, 200);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main {
+  width: 360px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  padding: 55px 20px 90px 24px;
+}
+
+.menu {
+  background: none;
+  border: none;
+  margin-bottom: 23px;
+}
+
+h1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+
+input {
+  background-color: #efefef;
+  border-radius: 12px;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 29px;
+}
+
+.burgers-header {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.burgers-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-block {
+  padding: 16px;
+  background-color: #eae2b7;
+  margin-bottom: 8px;
+  border-radius: 12px;
+}
+
+.img-block-nonactive {
+  background-color: #efefef;
+}
+
+h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.disactive {
+  color: #c4c4c4;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.burgers-main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.burgers {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px #e5e5e5;
+}
+
+h5 {
+  color: #d62828;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu:hover {
+  outline: rgb(30, 184, 255) solid 2px;
+}
+
+input:hover {
+  outline: rgb(30, 184, 255) solid 2px;
+}
+
+.img-block:hover {
+  outline: rgb(30, 184, 255) solid 2px;
+}
+
+.burgers:hover {
+  outline: rgb(30, 184, 255) solid 2px;
+}
