@@ -23,7 +23,8 @@ p {
   width: 360px;
   margin: 40px auto;
   border-radius: 20px;
-  background: rgb(255, 255, 255);
+  padding: 55px 20px 90px 24px;
+  background: white;
   padding: 55px 20px 90px 24px;
 }
 
