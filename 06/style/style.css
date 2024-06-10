@@ -68,6 +68,10 @@ header {
   cursor: pointer;
 }
 
+.fa-star:nth-of-type(-n + 3) {
+  color: yellow;
+}
+
 .release-date {
   font-weight: 500;
   color: #c8c8c8;
@@ -84,6 +88,8 @@ header {
   background-color: transparent;
   border: none;
   margin-right: 16px;
+  color: white;
+  font-size: 35px;
 }
 
 .thumbnail {
@@ -193,6 +199,13 @@ h2 {
   gap: 24px;
 }
 
+.btn-icons {
+  border-radius: 100%;
+  border: 2px solid #a7a6a6;
+  background: none;
+  color: #a7a6a6;
+}
+
 .highlight-list {
   display: flex;
   gap: 40px;
@@ -204,6 +217,6 @@ h2 {
 .img-arr-act {
   cursor: pointer;
 }
-.img-avatar{
-    cursor: pointer;
+.img-avatar {
+  cursor: pointer;
 }
